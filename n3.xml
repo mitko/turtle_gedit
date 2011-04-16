@@ -1,0 +1,7 @@
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+  <mime-type type="text/x-n3">
+    <comment>N3/Turtle Source</comment>
+    <!-- more translated comment elements -->
+    <glob pattern="*.n3|*.ttl"/>
+  </mime-type>
+</mime-info>
