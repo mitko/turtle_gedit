@@ -1,7 +1,12 @@
 <mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
-  <mime-type type="text/x-n3">
-    <comment>N3/Turtle Source</comment>
-    <!-- more translated comment elements -->
-    <glob pattern="*.n3|*.ttl"/>
+  <!-- http://www.w3.org/TeamSubmission/n3/#mimetype -->
+  <mime-type type="text/n3">
+    <comment>N3 (Notation3) RDF serialization format</comment>
+    <glob pattern="*.n3"/>
+  </mime-type>
+  <!-- http://www.w3.org/TeamSubmission/turtle/#sec-mediaReg -->
+  <mime-type type="text/turtle">
+    <comment>Turtle RDF serialization format</comment>
+    <glob pattern="*.ttl"/>
   </mime-type>
 </mime-info>
